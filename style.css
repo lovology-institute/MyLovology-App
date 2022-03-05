@@ -57,9 +57,6 @@ body {
     padding: 2px;
     /* border-radius: 10px; */
 }
-.cntnr1a:hover {
-
-}
 /* 4 MENU UTAMA END */
 
 
@@ -80,10 +77,6 @@ body {
     width: 50%;
     height: 50%;
     padding: 5px;
-}
-
-.cntnr1a2 a img {
-    /* border-radius: 10px; */
 }
 
 .cntnr1a2 .cntnr1a2-button {
@@ -115,8 +108,8 @@ body {
     padding: 5px;
 }
 .cntnr1a3 a img {
-    border: 1px solid #333;
-    box-shadow: 2px 2px 2px 2px #888888;
+    /* border: 1px solid #333; */
+    box-shadow: 2px 2px 2px 0.125px #888888;
 }
 
 .cntnr1a3 .cntnr1a3-button {
@@ -143,7 +136,7 @@ body {
 
 .cntnr1a3 a img {
 	opacity: 1;
-    border-radius: 10px;
+    border-radius: 5px;
     -webkit-transform: scale (1);
 	transform: scale (1);
 	-webkit-transition: .3s ease-in-out;
@@ -151,7 +144,7 @@ body {
 }
 .cntnr1a3 a:hover img {
 	opacity: .6;
-    border-radius: 10px;
+    border-radius: 5px;
     -webkit-transform: scale (0.99);
 	transform: scale (0.99);
 }
